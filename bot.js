@@ -2,7 +2,7 @@
 
 const Telegram = require('telegram-node-bot')
 const TelegramBaseController = Telegram.TelegramBaseController
-const tg = new Telegram.Telegram('process.env.ACCESS_TOKEN_KEY') // @bacaan_bot
+const tg = new Telegram.Telegram(process.env.ACCESS_TOKEN_KEY) // @bacaan_bot
 const fetchUrl = require("fetch").fetchUrl;
 
 const Quran = require('quran')
