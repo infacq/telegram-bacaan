@@ -1,0 +1,17 @@
+{
+  "name": "al-kitab",
+  "version": "0.0.0",
+  "description": "telegram untuk mencari firman tuhan",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Garda Wibawa",
+  "license": "ISC",
+  "dependencies": {
+    "fetch": "^1.1.0",
+    "quran": "0.0.8",
+    "telegram-node-bot": "^3.0.7"
+  }
+}
