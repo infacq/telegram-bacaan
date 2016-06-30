@@ -2,7 +2,7 @@
 
 const Telegram = require('telegram-node-bot')
 const TelegramBaseController = Telegram.TelegramBaseController
-const tg = new Telegram.Telegram('257198136:AAHhGvGFK5SgbRRXJXpdJk2T6f7BTWbOppw') // @bacaan_bot
+const tg = new Telegram.Telegram('') // @bacaan_bot
 const fetchUrl = require("fetch").fetchUrl;
 
 const Quran = require('quran')
